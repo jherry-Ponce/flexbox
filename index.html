@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        margin: 0%;
+        padding: 0%;
+    }
+    .navigation{
+        margin: auto;
+        width: 100%;
+        display: flex;
+        background-color: #00AF1C;
+    }
+    .navigation figure{
+        margin: 0%;
+        padding: 0%;
+        width: 10%;
+    }
+    .navigation figure img{
+        border-radius: 50%;
+        margin: 0.5em;
+        width: 6.25em;
+        height: 5em;
+        background-color: aqua;
+    }
+    .navigation  .lista{
+        width: 80%;
+        margin: 0em  0.5em;
+        list-style-type: none;  
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+ 
+    .navigation .lista li{
+        color: white;
+        padding: 0.5em;
+        margin: 0em  2em;
+    }
+
+   .navigation  .lista li a {
+    display: inline-block;
+    color: rgb(247, 247, 247);
+    text-align: center;
+    text-decoration: none;
+    }
+
+    .navigation .lista li a:hover {
+        color:white  ;
+        font-size: 1.1em;
+        font-weight: 600 bold;
+    }
+    .grupo-imagen{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+       
+    }
+    .imagen{
+        margin-left: 0%;
+    }
+
+    .imagen img{
+        margin-left: 0%;
+        width: 25em ;
+        height: 13em;
+        background-color: blueviolet;
+    }
+    h2{
+        font-size: 1.5em;
+        line-height: 1.725em;
+        font-weight: 700 bold;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+    }
+    .container{
+        margin-left:2em ;
+        margin-right: 5em;
+    }
+    .parrafo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.6em;
+    text-align: justify;
+    }
+
+   div ul {
+   
+    width: 10.8em;
+    height: 9.75em;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.6em;
+   }
+   input{
+    display: block;
+    color: black;
+    box-sizing: border-box;
+    height: 5.5em;
+    width: 100%;
+    margin-bottom: 1em;
+    border: 1px solid #000000;
+   }
+   textarea{
+    margin-top: 1em; 
+    box-sizing: border-box;
+    width: 100%;
+    height: 13.73em;
+    border: 1px solid #000000;
+   }
+   button{
+    margin-top: 1em;   
+    box-sizing: border-box;
+    width: 12.18em;
+    height: 4.5em;
+    border: 1px solid #22A900;
+    width: 4em;
+    height: 1.6em;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 1.6em;
+    color: #22A900;
+   }
+
+   footer{
+    margin-top: 2em;
+    background-color: #22A900;
+    padding: 2em;
+    color: white;
+    display: flex;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+   }
+   footer div{
+    margin-left: auto;
+   }
+
+</style>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <figure>
+                <img src="https://img2.freepng.es/20180328/oce/kisspng-web-development-web-design-logo-website-5abbea0acaa518.0043648215222645868301.jpg" alt="">
+            </figure>
+            <ul class="lista">
+                <li> <a href="#Home">Home</a>        </li>
+                <li> <a href="#Servicios">Servicios</a>   </li>
+                <li> <a href="#Portafolio">Portafolio</a>  </li>
+                <li> <a href="#Contacto">Contacto</a>    </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="Home" class="container">
+            <h2>Home</h2>
+            <div>
+                <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed luctus donec et. Mi, et, volutpat sollicitudin sit sed tincidunt libero ac suscipit. Fermentum mattis cras in massa commodo rhoncus. Metus felis consectetur feugiat diam vel non ut quis. Proin justo amet, tempor viverra sed elementum. Non orci accumsan sed commodo quam blandit ultricies ac aliquam. Nulla euismod tempor consequat id pulvinar in cursus commodo.</p>
+                <div class="grupo-imagen">
+                    <figure class="imagen">
+                        <img src="https://automatismosmundo.com/wp-content/uploads/2021/02/desarrollo-web.png" alt="">
+                    </figure>
+                    <figure class="imagen">
+                        <img src="https://automatismosmundo.com/wp-content/uploads/2021/02/desarrollo-web.png" alt="">
+                    </figure>
+                    <figure class="imagen">
+                        <img src="https://automatismosmundo.com/wp-content/uploads/2021/02/desarrollo-web.png" alt="">
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section id="Servicios" class="container">
+            <h2>Servicios</h2>
+            <div >
+                <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed luctus donec et. Mi, et, volutpat sollicitudin sit sed tincidunt libero ac suscipit. Fermentum mattis cras in massa commodo rhoncus. Metus felis consectetur feugiat diam vel non ut quis. Proin justo amet, tempor viverra sed elementum. Non orci accumsan sed commodo quam blandit ultricies ac aliquam. Nulla euismod tempor consequat id pulvinar in cursus commodo.</p>
+                <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed luctus donec et. Mi, et, volutpat sollicitudin sit sed tincidunt libero ac suscipit. Fermentum mattis cras in massa commodo rhoncus. Metus felis consectetur feugiat diam vel non ut quis. Proin justo amet, tempor viverra sed elementum. Non orci accumsan sed commodo quam blandit ultricies ac aliquam. Nulla euismod tempor consequat id pulvinar in cursus commodo.</p>
+                <div class="grupo-imagen">
+                    <figure class="imagen">
+                        <img src="	https://i.ytimg.com/vi/bYOjmW-740M/maxresdefault.jpg" alt="">
+                    </figure>
+                    <figure class="imagen">
+                        <img src="https://www.ucreativa.com/wp-content/uploads/diseno-web-2022-ucreativa.jpg" alt="">
+                    </figure>
+                    <figure class="imagen">
+                        <img src="https://www.espaciohonduras.net/images/diseno_programacion_web/entrada/diseno_web_programacion.jpg" alt="">
+                    </figure>
+                </div>
+                <ul>
+                    <li>servicio uno</li>
+                   <li>servicio dos</li>
+                    <li>servicio tres</li>
+                    <li>servicio cuatro</li>
+                 </ul>
+            </div>
+        </section>
+        <section id="Portafolio" class="container">
+            <h2>Portafolio</h2>
+            <div >
+                <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed luctus donec et. Mi, et, volutpat sollicitudin sit sed tincidunt libero ac suscipit. Fermentum mattis cras in massa commodo rhoncus. Metus felis consectetur feugiat diam vel non ut quis. Proin justo amet, tempor viverra sed elementum. Non orci accumsan sed commodo quam blandit ultricies ac aliquam. Nulla euismod tempor consequat id pulvinar in cursus commodo.</p>
+                <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed luctus donec et. Mi, et, volutpat sollicitudin sit sed tincidunt libero ac suscipit. Fermentum mattis cras in massa commodo rhoncus. Metus felis consectetur feugiat diam vel non ut quis. Proin justo amet, tempor viverra sed elementum. Non orci accumsan sed commodo quam blandit ultricies ac aliquam. Nulla euismod tempor consequat id pulvinar in cursus commodo.</p>
+                <div class="grupo-imagen">
+                    <figure class="imagen">
+                        <img src="https://gscreativas.com/blog/wp-content/uploads/2021/02/desarrollo-web-herramientas.jpg" alt="">
+                    </figure>
+                    <figure class="imagen">
+                        <img src="https://www.arpynet.com/wp-content/uploads/2018/07/desarrollo-web-ciencia-activa.png" alt="">
+                    </figure>
+                    <figure class="imagen">
+                        <img src="https://tutorialesenpdf.com/wp-content/uploads/2020/04/desarrollo-web.jpg" alt="">
+                    </figure>
+                </div>
+                <ul>
+                    <li>servicio uno</li>
+                   <li>servicio dos</li>
+                    <li>servicio tres</li>
+                    <li>servicio cuatro</li>
+                 </ul>
+            </div>
+        </section>
+        <section id="Contacto" class="container">
+            <h2>Contacto</h2>
+            <p class="parrafo">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed luctus donec et. Mi, et, volutpat sollicitudin sit sed tincidunt 
+                libero ac suscipit. Fermentum mattis cras in massa commodo rhoncus. Metus felis consectetur feugiat diam vel non ut quis. Proin justo amet,
+                tempor viverra sed elementum. Non orci accumsan sed commodo quam blandit ultricies ac aliquam. Nulla euismod tempor consequat id pulvinar
+                in cursus commodo.
+            </p>
+            <form>
+               
+               <input type="text" placeholder="Nombre y Apellido">
+               <textarea name="" id="" cols="30" rows="10" placeholder="Detalle"></textarea>
+               <button>
+                   Enviar
+               </button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <span>Todos los derechos reservados</span>
+        <div>
+            <span><b>Desing by:</b>Jherry Ponce</span>
+        </div>
+    </footer>
+</body>
+</html>
